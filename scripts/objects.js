@@ -1,4 +1,3 @@
-// --- objects --- //
 class Objects {
   constructor() {}
   spaceship(x, y, spaceship_image) {
@@ -24,7 +23,6 @@ class Objects {
     this.height = 24;
     this.ufo_image = ufo_image;
     this.level = level;
-    //even-odd level selector
     this.ufo_image.src =
       this.level % 2 == 0 ? "images/ufo2.png" : "images/ufo.png";
     return this;

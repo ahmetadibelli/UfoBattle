@@ -1,4 +1,3 @@
-// --- positionTransfer --- //
 class TransferPosition {
   constructor(level) {
     this.level = level;
@@ -9,7 +8,6 @@ class TransferPosition {
     this.fontSize -= 1;
     this.fontColor -= 1.5;
     if (this.fontSize < 1) {
-      //  if the condition is met it will go to the InGamePosition
       play.goToPosition(new InGamePosition(play.setting, this.level));
     }
   }

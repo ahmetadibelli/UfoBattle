@@ -1,4 +1,3 @@
-// --- positionGameOver --- //
 class GameOverPosition {
   constructor() {}
   draw(play) {

@@ -1,4 +1,3 @@
-// --- positionPause --- //
 class PausePosition {
   constructor() {}
   draw(play) {

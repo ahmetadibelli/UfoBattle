@@ -1,4 +1,3 @@
-// --- sounds --- //
 class Sounds {
   constructor() {
     this.muted = false;
